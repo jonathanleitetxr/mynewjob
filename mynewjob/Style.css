@@ -1,0 +1,209 @@
+.Connecté{
+    
+    font-size: 20px;
+    margin-left: 50px;
+    
+}
+
+.text-recrutement{
+    
+    width: 500px;
+    border-color: #F8F8FB ;
+    border-radius: 40px ;
+    border-style: solid ;
+    border-width: 3px ;
+    font-size: 12px ;
+    text-align: left ;
+    border: 1px solid #232342;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+
+
+
+.titre-recrutement{
+    
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.boutonMenu{
+    color: #343A40;
+    background-color: #8ec048;
+    border-radius: 40px ;
+    border-width: 3px ;
+    border-style: solid ;
+    font-size: 100% ;
+    padding: 5px;
+    border-color: #8ec048;
+    transition: background-color 2s, color 1s;
+    transition-timing-function : ease-out;
+}
+
+.boutonMenu:hover{
+    color: white;
+    background-color: #74367c;
+}
+
+.boutonInscription_Connexion{
+    background-color:  #0093ff;
+    color: black;
+   
+}
+
+#boutton{
+    
+    border-radius: 40px ;
+    border-width: 3px ;
+    border-style: solid ;
+    font-size: 20px ;
+    padding: 5px;
+    border-color: white ;
+    background-color: white;
+    margin-top: 50px;
+    
+}
+
+#bouttonConnecté{
+    
+    border-radius: 40px ;
+    border-width: 3px ;
+    border-style: solid ;
+    font-size: 100% ;
+    padding: 5px;
+    border-color: white ;
+    background-color: white;
+    
+}
+
+.connexionInterimaire{
+    
+      text-align: center;
+      float: left;
+      width:50%;
+      display: inline-block;
+      min-height: 60%;
+      background-color: #74367c;
+    
+}
+
+.connexionEntreprise{
+    
+      text-align: center;
+      width:50%;
+      display: inline-block;
+      min-height: 60%;
+      background-color: #74367c;
+      float:right;
+    
+}
+
+.presentation{
+    
+    text-align: center;
+    float: left;
+    width:60%;
+    height:40%;
+    background-color: #74367c;
+    
+}
+
+.imagePresentation{
+    
+    float: left;
+    width:40%;
+    height:40%;
+    background-color: #74367c;
+}
+
+.presentationIndex{
+    
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    background-color: #74367c;
+}
+
+.moduleRecherche{
+    
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    background-color: #74367c;
+}
+
+.offreEmploie{
+    
+    text-align: center;
+    height:80%;
+    
+}
+
+.informationInterimaire{
+    
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #74367c;
+}
+
+.fichierInterimaire{
+    
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    
+    
+}
+
+.informationSéparation{
+    
+    font-size: 20px;
+    margin-top: 5%;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.informationSéparation2{
+    
+    font-size: 20px; 
+    margin-top: 5%;
+    text-align: center;
+    width: 50%;
+    float: right;
+    
+}
+.informationSéparation3{
+    
+    font-size: 20px; 
+    margin-top: 10%;
+    text-align: center;
+    width: 100%;
+
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+.offreIndex{
+    
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    animation-iteration-count:infinite;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.li_animation {animation-iteration-count:infinite; animation: 1s ease-out 0s 1 slideInFromLeft }

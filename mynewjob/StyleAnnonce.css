@@ -1,0 +1,50 @@
+            
+html { background-color: #74367c; }
+body { background-color: #74367c;}
+
+
+h1, h2, h3 {font-size:16px; font-weight:400; text-transform:uppercase; color:black; margin:0; padding:0; margin-bottom:10px; margin-top:22px; border:0; }
+h1 { margin-top:0; font-size:28px; margin-bottom:10px; }
+h2 { font-size:20px; }
+h3 { font-size:14px; }
+p, ul { text-align:justify; line-height:1.5; margin:0; padding:0; margin-bottom:10px; color: black; }
+a.vert { color:#8ec048; }
+a:hover { color:#888; }
+
+
+#li_content{ width: 100%;}
+
+.li_offre { float:left; width:15%; height:270px; margin-bottom: 3%; margin-top: 2%; margin-right:3%; margin-left: 2%; position:relative; background-color:#f4f8ec;}
+.li_offre_picto { margin-top:15px;}
+.li_offre_image { float:left; width:30%; height:100%; margin-right:15px; background-position:center; background-size:cover; background-color:#DDD; }
+.li_offre_titre { color:#444; margin-top:5px; margin-bottom:5px; }
+.li_offre_soustitre { margin-bottom:20px; color:#8ec048; }
+.li_offre_texte { color:#888; line-height:1.5; font-size:12px;}
+.li_offre .li_bouton { position:absolute; bottom:0; right:20px; }
+.li_bouton.vert { background-color:#8ec048; color:#FFF !important; }
+.li_bouton.vert:hover { background-color:#444; }
+
+
+/*
+.li_filtres { font-size:16px; margin-bottom:3%; text-align: center; }
+.li_filtres select { margin-right:50px; margin-left:10px; padding:5px 10px; }*/
+
+
+
+
+@media only screen and (max-width: 1150px)
+{
+    .li_main { width:100% !important; min-height:0px !important; padding-left:3% !important; padding-right:3% !important; }
+		
+}
+
+@media only screen and (max-width: 950px)
+{
+    .li_actu, .li_offre { float:none; width:100% !important; margin-right:0 !important; height:auto; min-height:240px; padding-bottom:40px !important; }
+    .li_offre_image { height:240px; margin-right:10px; }
+
+}
+
+
+
+
